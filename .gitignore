@@ -1,0 +1,29 @@
+# IDE specific
+.vscode/
+.idea/
+
+# Node modules
+**/node_modules/*
+
+# Python bytecode
+**/*.pyc
+**/__pycache__/
+
+#OS
+*.DS_Store
+
+# Environment variables
+**/.env
+.env
+
+# Logs and databases
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Security certificates
+ssl/
+**/*.pem
+
+# Optional: ignore all .gitattributes to avoid conflicts
+*.gitattributes
